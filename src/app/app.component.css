@@ -32,14 +32,19 @@ header{
   hight:100px;
   position: fixed;
   background: aqua;
-  width: 97%;
+  width: 98.7%;
   padding: 5px;
   border-radius: 5px;
-  margin-top: -8px;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+button {
+  text-transform: uppercase;
 }
 
 .logo{
   float: left;
+  padding: 25px;
 
 }
 .menu{
