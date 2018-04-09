@@ -13,5 +13,36 @@ p{
   border: dotted;
   box-shadow: 1px 1px 2px 3px blue;
 
+}
 
+.image{
+  width: 150px;
+  padding: 50px;
+  background: url("../assets/bat.png");
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: Verdana, Calibri, sans-serif;
+  font-size: 15px;
+}
+
+header{
+  hight:100px;
+  position: fixed;
+  background: aqua;
+  width: 97%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: -8px;
+}
+
+.logo{
+  float: left;
+
+}
+.menu{
+  float: right;
+  margin-right: 2%;
 }
