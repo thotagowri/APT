@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "variables";
+@import "tabs";
+@import "tooltips";
+@import "forms";
+@import "buttons";
+@import "responsive";
+mat-form-field {
+  margin: 0 40px;
+}
+body {
+  background: #EEEEEE;
+}
+.example-form {
+  margin-top: 20px;
+}
+.mat-step-icon .material-icons{
+  top: 0;
+  left: 0;
+}
+button {
+  text-transform: uppercase;
+}
+.material-icons {
+  position: relative;
+  top:      0;
+  left:     0;
+}
+.mat-drawer.mat-sidenav {
+  min-width: 200px;
+  .mat-button {
+    display: block;
+  }
+}
+.mat-drawer-container{
+  background: unset;
+}
+.mat-horizontal-content-container{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}

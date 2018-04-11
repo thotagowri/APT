@@ -94,8 +94,6 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     MatGridListModule,
     CdkTableModule,
     LayoutModule,
-
   ],
 })
-export class ProductionMaterialModule {
-}
+export class ProductionMaterialModule {}

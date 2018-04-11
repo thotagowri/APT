@@ -1,0 +1,26 @@
+.offers-container {
+  margin-top: 80px;
+
+  .mat-tab-body-wrapper {
+    margin-top: 20px;
+  }
+
+  .mat-tab-label {
+    width: 50%;
+  }
+
+  .mat-tab-group {
+    width: 85%;
+    margin-top: 15px;
+  }
+
+  .mat-tab-label-content {
+    font-size: 20px;
+  }
+
+  .offer-pending-container {
+    background-color: #d3d3d3;
+    border: 1px solid #808080;
+    border-radius: 2px;
+  }
+}

@@ -1,0 +1,31 @@
+@media (max-width: $tablet-768){
+  .mat-step-label {
+    display: none !important;
+  }
+  .mat-horizontal-stepper-header .mat-step-icon,
+  .mat-horizontal-stepper-header .mat-step-icon-not-touched {
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: $large-mobile-425){
+  .mat-stepper-horizontal-line {
+    display: none;
+  }
+
+  .mat-horizontal-stepper-header {
+    padding: 0 20px !important;
+  }
+}
+
+@media (max-width: $medium-mobile-375){
+  .mat-horizontal-stepper-header {
+    padding: 0 17px !important;
+  }
+}
+
+@media (max-width: $small-mobile-320){
+  .mat-horizontal-stepper-header {
+    padding: 0 12px !important;
+  }
+}

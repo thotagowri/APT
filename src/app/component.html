@@ -1,30 +1,33 @@
-<body>
-<header class="header">
-  <figure>
-    <img class="img" src="../assets/Bat.png">
-  </figure>
-  <div class="menu">
-    <nav>
-      <ul>
-        <button mat-raised-button routerLink="/login"><i class="material-icons">exit_to_app</i>Login</button>
-        <button mat-raised-button routerLink="register"><i class="material-icons">person_outline</i>register</button>
-      </ul>
-    </nav>
+<mat-sidenav-container fullscreen="true">
+  <mat-sidenav #sidenav mode="over" align="end" (click)="sidenav.close()">
+    <button mat-raised-button routerLink="/login">Login</button>
+    <button mat-raised-button routerLink="/register">Register</button>
+  </mat-sidenav>
+  <mat-toolbar>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <figure>
+            <img class="img text-left" [style.background-image]="'url('+'../assets/Bat.png' +')'">
+          </figure>
+          <span routerLink="/" style="line-height: 40px;">Welcome To Production App</span>
+        </div>
+        <div class="col text-right">
+          <button mat-raised-button routerLink="/login">Login</button>
+          <button mat-raised-button routerLink="/register">Register</button>
+          <button mat-icon-button class="d-md-none" (click)="sidenav.open()">
+            <mat-icon>menu</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </mat-toolbar>
+  <router-outlet></router-outlet>
+</mat-sidenav-container>
 
-  </div>
-  <div class="title">
-    <a routerLink="/">Welcome To Production App</a>
-  </div> <!-- logo -->
-</header>
-<section>
 <footer>
   <div class="social"></div>
   <p>
-  &copy; 2018 Copyright. All Rights Reserved
+    &copy; 2018 Copyright. All Rights Reserved
   </p>
 </footer>
-
-
-</section>
-</body>
-
