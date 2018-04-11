@@ -4,24 +4,19 @@ body{
   font-family: Verdana, Calibri, sans-serif;
   font-size: 15px;
 }
-
 header{
-  height:100px;
+  height:120px;
   position: fixed;
   background: aqua;
-  width: calc(100% - 5px);
-
+  width: 98.5%;
 }
 button {
   text-transform: uppercase;
 }
-
-.logo {
-  float: left;
-  margin-left: 10%;
+.title {
+  margin-left: 13%;
 }
-
-.logo a{
+.title a{
   color: blueviolet;
   font-size: 30px;
   margin-top: 30px;
@@ -30,9 +25,8 @@ button {
 }
 .menu{
   float: right;
-  margin-right: 5%;
-  margin-top: 30px;
-
+  margin-right: 8%;
+  margin-top: 20px;
 }
 .menu ul{
   margin: 0px;
@@ -47,7 +41,7 @@ button {
 }
 footer{
   position: fixed;
-  width: 100%;
+  width: 98.5%;
   height: 60px;
   bottom: 0;
   background: darkgray;
@@ -57,6 +51,10 @@ footer{
   margin: 0;
   padding: 0;
   line-height: 50px;
-
-
 }
+.img{
+  width:90px;
+  height:90px;
+  float:left;
+}
+
